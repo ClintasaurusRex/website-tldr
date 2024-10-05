@@ -4,6 +4,10 @@ import NavBar from "./NavBar";
 import SignUp from "./SignUp";
 import React from "react";
 import Home from "./Home";
+import About from "./About";
+import Contact from "./Contact";
+import Pricing from "./Pricing";
+import Login from "./Login";
 
 function App() {
   return (
@@ -12,10 +16,10 @@ function App() {
       <>
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/about" element={<About />} /> */}
-          {/* <Route path="/contact" element={<Contact />} /> */}
-          {/* <Route path="/pricing" element={<Pricing />} /> */}
-          {/* /* <Route path="/login" element={<Login />} /> */}
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/pricing" element={<Pricing />} />
+          /* <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
         </Routes>
 
