@@ -1,13 +1,23 @@
-import { BrowserRouter } from "react-router-dom";
-
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import NavBar from "./NavBar";
+import SignUp from "./SignUp";
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <NavBar />
       <>
+        <Routes>
+          {/* Uncomment and add other routes as needed */}
+          {/* <Route path="/home" element={<Home />} /> */}
+          {/* <Route path="/about" element={<About />} /> */}
+          {/* <Route path="/contact" element={<Contact />} /> */}
+          {/* <Route path="/pricing" element={<Pricing />} /> */}
+          {/* <Route path="/login" element={<Login />} /> */}
+          <Route path="/signup" element={<SignUp />} />
+        </Routes>
+
         <div className="main-container">
           <a href="https://react.dev" target="_blank">
             <img src="src/assets/image.png" className="logo react" alt="React logo" />
@@ -15,7 +25,7 @@ function App() {
           <h1>T.L.D.R</h1>
         </div>
       </>
-    </BrowserRouter>
+    </Router>
   );
 }
 

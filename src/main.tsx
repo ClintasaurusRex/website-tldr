@@ -9,5 +9,3 @@ createRoot(document.getElementById("root")!).render(
     <App />
   </StrictMode>
 );
-
-// src/main.tsx or src/index.tsx
