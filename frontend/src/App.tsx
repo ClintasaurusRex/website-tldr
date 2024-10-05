@@ -3,6 +3,7 @@ import "./App.css";
 import NavBar from "./NavBar";
 import SignUp from "./SignUp";
 import React from "react";
+import Home from "./Home";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <NavBar />
       <>
         <Routes>
-          {/* <Route path="/home" element={<Home />} /> */}
+          <Route path="/" element={<Home />} />
           {/* <Route path="/about" element={<About />} /> */}
           {/* <Route path="/contact" element={<Contact />} /> */}
           {/* <Route path="/pricing" element={<Pricing />} /> */}
