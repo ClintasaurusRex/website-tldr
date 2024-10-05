@@ -1,0 +1,26 @@
+/* Google Sign-In Button */
+#google-signup-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #757575;
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#google-signup-button:hover {
+  background-color: #83abf9;
+  color: #4285f4;
+}
+
+/* Google logo */
+.google-logo {
+  width: 20px;
+  margin-right: 10px;
+}

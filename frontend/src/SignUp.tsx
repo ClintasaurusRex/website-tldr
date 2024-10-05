@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/Form";
+import "./Signup.scss";
 
 // SignUp.tsx
 
@@ -59,9 +58,9 @@ const SignUp: React.FC = () => {
                 <span>or</span>
               </div>
 
-              <button className="btn btn-outline-danger w-100 mt-2">
+              <button id="google-signup-button" className="btn btn-outline-dark w-100 mt-2">
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png"
+                  src="https://developers.google.com/identity/images/g-logo.png"
                   alt="Google logo"
                   className="google-logo me-2"
                   style={{ width: "20px" }}
