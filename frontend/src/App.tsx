@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import NavBar from "./NavBar";
 import SignUp from "./SignUp";
+import React from "react";
 
 function App() {
   return (
