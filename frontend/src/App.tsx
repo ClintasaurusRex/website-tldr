@@ -9,12 +9,11 @@ function App() {
       <NavBar />
       <>
         <Routes>
-          {/* Uncomment and add other routes as needed */}
           {/* <Route path="/home" element={<Home />} /> */}
           {/* <Route path="/about" element={<About />} /> */}
           {/* <Route path="/contact" element={<Contact />} /> */}
           {/* <Route path="/pricing" element={<Pricing />} /> */}
-          {/* <Route path="/login" element={<Login />} /> */}
+          {/* /* <Route path="/login" element={<Login />} /> */}
           <Route path="/signup" element={<SignUp />} />
         </Routes>
 
